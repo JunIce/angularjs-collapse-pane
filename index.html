@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse Pane</title>
+    <style>
+        table, th, tr, td{
+            border: 1px solid #000;
+        }
+        .box{
+            height: 400px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+        }
+        .hresizer{
+            width: 10px;
+            border-left: 1px solid #ccc;
+        }
+    </style>
+    <link rel="stylesheet" href="../collapse-pane.css">
+</head>
+
+<body data-ng-app="myapp">
+    <div>
+        <div class="box">
+            <div v-container style="height: 100%;">
+                <div style="width: 200px; min-width: 150px; max-width: 200px;">
+                    <h1>123</h1>
+                </div>
+                <div v-divider class="hresizer"></div>
+                <div style="flex-grow: 1">
+                    <h1>sdafsd</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/angular@1.8.2/angular.min.js"></script>
+    <script src="../collapse-pane.js"></script>
+    <script type="text/javascript">
+        angular.module('myapp', ['volcan0.collapse-pane'])
+    </script>
+</body>
+
+</html>
