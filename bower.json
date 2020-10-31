@@ -1,0 +1,30 @@
+{
+    "name": "angularjs-collapse-pane",
+    "version": "0.0.1",
+    "description": "angularjs collapse pane",
+    "homepage": "https://github.com/JunIce/angularjs-collapse-pane.git",
+    "authors": [
+      "east.qrj@gmail.com"
+    ],
+    "main": [
+      "src/collapse.js",
+      "src/collapse.css"
+    ],
+    "keywords": [
+      "AngularJS",
+      "Split Pane",
+      "Responsive",
+      "draggable pane"
+    ],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "docs/bower_components"
+    ],
+    "dependencies": {
+      "angular": ">=1.3.0 <1.5"
+    }
+  }
+  

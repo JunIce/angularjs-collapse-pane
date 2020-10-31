@@ -1,9 +1,9 @@
 {
   "name": "angularjs-collapse-pane",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "angularjs collapse pane",
-  "main": "index.js",
-  "homepage": "https://github.com/JunIce/angularjs-collapse-pane",
+  "main": "src/collapse-pane.js",
+  "homepage": "https://junice.github.io/angularjs-collapse-pane",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JunIce/angularjs-collapse-pane.git"
@@ -12,19 +12,17 @@
     "deploy": "gh-pages -d example"
   },
   "keywords": [
-    "split",
-    "pane",
-    "draggable",
-    "pane",
-    "collapsible",
-    "pane"
+    "AngularJS",
+    "Split Pane",
+    "Responsive",
+    "draggable pane"
   ],
   "author": "east.qrj@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JunIce/angularjs-collapse-pane/issues"
   },
-  "homepage": "https://github.com/JunIce/angularjs-collapse-pane#readme",
+  "homepage": "https://github.com/JunIce/angularjs-collapse-pane",
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
